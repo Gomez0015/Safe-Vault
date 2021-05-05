@@ -19,7 +19,7 @@ Safe Vault is a password manager for the command line interface written in Pytho
 ```bash
 git clone https://github.com/YNRA/Safe-Vault.git
 cd safe_vault
-python3 -m pip install -r requirements
+python3 -m pip install -r requirements.txt
 python3 safe_vault_cli.py
 
 # Recommended :
