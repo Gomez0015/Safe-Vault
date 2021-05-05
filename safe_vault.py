@@ -1,4 +1,4 @@
-# Authors : Arnaud Boyé (@5neaky), Thomas Dejeanne (@Gomonriou), Alexandre Fraschini (@obiwanken0bi)
+# Authors : Arnaud Boyé (@YNRA), Thomas Dejeanne (@Gomonriou)
 # 2020-2021
 
 # *********************************************************************  LIBRAIRIES   **********************************************************************************
@@ -44,7 +44,7 @@ def banner():
     ╚════██║██╔══██║██╔══╝  ██╔══╝      ╚██╗ ██╔╝██╔══██║██║   ██║██║     ██║   
     ███████║██║  ██║██║     ███████╗     ╚████╔╝ ██║  ██║╚██████╔╝███████╗██║   
     ╚══════╝╚═╝  ╚═╝╚═╝     ╚══════╝      ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝   
-              Powered by 5neaky, Gomonriou & obiwanken0bi - 2020-2021\n 
+                 Powered by YNRA, Gomonriou - 2021\n 
 ''', warning))
 
 def clear():
