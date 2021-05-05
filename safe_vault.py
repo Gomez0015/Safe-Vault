@@ -116,7 +116,7 @@ def initialize():
             login BLOB NOT NULL,
             password BLOB NOT NULL,
             application_name VARCHAR(255) NOT NULL,
-            application_path TEXT
+            application_path TINYTEXT
         );
     ''')
     cursor.execute("INSERT INTO master (username, password, salt) VALUES (?, ?, ?)", (master_username, master_psswd, salt))
@@ -186,7 +186,7 @@ def privateKey():
     master = cursor.execute("SELECT * FROM master").fetchone()
     master_key = master[0].encode('utf-8')
     salt = master[2]
-    key = pbkdf2("sha512", master_key, salt, 100000, 32)
+    key = pbkdf2("sha512", master_key, salt, 200000, 32)
     return key
 
 # Function to encrypt data with AES in CBC mode and password based key derivation function PBKDF2-HMAC
