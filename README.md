@@ -12,7 +12,7 @@ Safe Vault is a password manager for the command line interface written in Pytho
 
 ## Screenshot
 
-![screenshot](homepage.png)
+![screenshot](homepage.png)		
 
 ## Installation & Usage
 
@@ -33,10 +33,11 @@ chmod -R 700 safe_vault
 Depends on the operating system, something an error can occur when trying to copy/paste :
 
 ```
-Pyperclip could not find a copy/paste mechanism for your system. Please see https://pyperclip.readthedocs.io/en/latest/introduction.html#not-implemented-error for how to fix this.
+Pyperclip could not find a copy/paste mechanism for your system. 
+Please see https://pyperclip.readthedocs.io/en/latest/introduction.html#not-implemented-error for how to fix this.
 ```
 
-In that case, you may have to install `xclip`package :
+In that case, you may have to install `xclip` package :
 
 ```bash
 sudo apt-get install xclip
