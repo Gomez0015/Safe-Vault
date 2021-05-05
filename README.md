@@ -10,6 +10,10 @@ Safe Vault is a password manager for the command line interface written in Pytho
 * Master username & password are hashed in SHA2-512
 * All logins & passwords are encrypted with AES-128-CBC
 
+## Screenshot
+
+![screenshot](homepage.png)
+
 ## Installation & Usage
 
 ```bash
