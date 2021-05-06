@@ -49,5 +49,4 @@ sudo apt-get install xclip
 
 Safe Vault is licensed under the terms of the MIT license. You can find the complete text in `LICENSE`.
 
-Developed  by Arnaud Boyé (@YNRA) and Thomas Dejeanne (@Gomonriou).
-
+Developed  by Arnaud Boyé ([@YNRA](https://github.com/YNRA)) and Thomas Dejeanne ([@Gomonriou](https://github.com/Gomonriou)).
