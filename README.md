@@ -44,7 +44,6 @@ sudo apt-get install xclip
 ```
 
 
-
 ## Credit & License
 
 Safe Vault is licensed under the terms of the MIT license. You can find the complete text in `LICENSE`.
