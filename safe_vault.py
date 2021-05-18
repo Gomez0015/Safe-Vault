@@ -61,7 +61,7 @@ def quit():
     sys.exit()
 
 
-# Initializes database connection. Creates one if none exists, raises error if connection fail
+# Initializes database connection. Creates one if none exists, raises error if connection fails
 try:
     connection
     banner()
